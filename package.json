@@ -1,0 +1,25 @@
+{
+  "name": "vue-press-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "deploy.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuruihuaa/vue-press-doc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuruihuaa/vue-press-doc/issues"
+  },
+  "homepage": "https://github.com/yuruihuaa/vue-press-doc#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
