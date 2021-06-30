@@ -1,24 +1,23 @@
 module.exports = {
     title: 'YURH',
-    description: 'Just doing',
+    description: '',
     themeConfig: {
         nav: [
             {
-                text: '前端基础',
-                items: [
-                    {
-                        text: 'JS',
-                        link: '/web/js/'
-                    },
-                    {
-                        text: 'Git',
-                        link: '/web/git/'
-                    },
-                ]
+                text: 'JavaScript',
+                link: "/js/"
+            },
+            {
+                text: 'Vue',
+                link: "/vue/"
             },
             { text: 'GitHub', link: 'https://github.com/yuruihuaa' },
         ],
-        sidebar: 'auto',
+        sidebar: {
+            '/js/': [''],
+            '/vue/': [''],
+        },
         sidebarDepth: 3,
+        displayAllHeaders: true
     }
 }

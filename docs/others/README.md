@@ -1,10 +1,11 @@
-# 集中式和分布式
+# Git
+## 集中式和分布式
 
 集中式：SVN
 
 分布式：GIT
 
-# 配置
+## 配置
 
 全局配置，修改了~/.gitconfig
 
@@ -20,7 +21,7 @@ git config --local user.name 'name'
 git config --local user.email 'name@outlook.com'
 ```
 
-# 基本操作
+## 基本操作
 
 创建仓库，新增.git文件夹，.git/config是这个仓库的配置文件
 
@@ -105,7 +106,7 @@ git restore file.txt
 git config --global alias.s status
 ```
 
-# 分支操作
+## 分支操作
 
 ```shell
 git branch BranchName  新建Name分支
@@ -170,7 +171,7 @@ git archive --format=zip --prefix=git-docs/ master > git-1.4.0-docs.zip
 git rebase master
 ```
 
-# 远程仓库
+## 远程仓库
 
 GitHub国外代码托管平台
 
