@@ -10,6 +10,10 @@ module.exports = {
                         text: 'JS',
                         link: '/web/js/'
                     },
+                    {
+                        text: 'Git',
+                        link: '/web/git/'
+                    },
                 ]
             },
             { text: 'GitHub', link: 'https://github.com/yuruihuaa' },
